@@ -39,7 +39,7 @@ if __name__ == '__main__':
     write_to_file('сетевое программирование', 'сокет', 'декоратор', filename=filename)
     encoding = check_encoding(filename=filename)
     read_from_file(filename=filename, encoding=encoding)
-    print('*'*100)
+    print('*' * 100)
     filename = 'output_test_file.txt'
     encoding = check_encoding(filename=filename)
     read_from_file(filename=filename)
