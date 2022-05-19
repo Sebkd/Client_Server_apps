@@ -20,7 +20,7 @@ def write_to_file(*args, filename):
 def check_encoding(filename):
     with open(filename, 'rb') as f:
         content = f.read()
-    print(f'encoding = {chardet.detect(content)["encoding"]}')
+    # print(f'encoding = {chardet.detect(content)["encoding"]}')
     return chardet.detect(content)['encoding']
 
 
