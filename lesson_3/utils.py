@@ -1,4 +1,5 @@
 import json
+
 from lesson_3.variables import MAX_PACKAGE_LENGTH, ENCODING
 
 
@@ -17,6 +18,7 @@ def get_message(client):
             raise ValueError
         raise ValueError
     raise ValueError
+
 
 def send_message(sock, message):
     """кодирование и отправка сообщения
