@@ -48,14 +48,13 @@ def main():
         sys.exit()
 
     # инициализация сокета
-
     transport = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     transport.connect((server_addr, server_port))
     message_to_server = create_presense()
     send_message(transport, message_to_server)
     try:
         answer = process_ans(get_message(transport))
-        print(answer)
+        print(f'{server_addr} : {server_port} ---> {answer}')
     except (ValueError, json.JSONDecodeError):
         print('Ошибка декодирования')
 
