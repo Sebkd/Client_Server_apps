@@ -1,12 +1,13 @@
 """Имитация клиента"""
-
+import os
 import sys
 import json
 import socket
 import time
 
-from lesson_3.utils import get_message, send_message
-from lesson_3.variables import ACTION, PRESENCE, TIME, USER, ACCOUNT_NAME, RESPONSE, ERROR, DEFAULT_IP_ADDR, \
+sys.path.insert(0, os.path.join(os.getcwd(), 'lesson_3'))
+from common.utils import get_message, send_message
+from common.variables import ACTION, PRESENCE, TIME, USER, ACCOUNT_NAME, RESPONSE, ERROR, DEFAULT_IP_ADDR, \
     DEFAULT_PORT
 
 
