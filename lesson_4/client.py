@@ -34,19 +34,26 @@ def process_ans(message):
     raise ValueError
 
 
-def main():
+def check_cmd():
     """Загрузка параметров командной строки"""
     try:
         server_addr = sys.argv[1]
         server_port = int(sys.argv[2])
         if server_port < 1024 or server_port > 65535:
             raise ValueError
+        return server_addr, server_port
     except IndexError:
         server_addr = DEFAULT_IP_ADDR
         server_port = DEFAULT_PORT
+        return server_addr, server_port
     except ValueError:
         print('Корректный порт в диапазоне 1024-65535')
         sys.exit()
+
+
+def main():
+    """Загрузка параметров командной строки"""
+    server_addr, server_port = check_cmd()
 
     # инициализация сокета
     transport = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
