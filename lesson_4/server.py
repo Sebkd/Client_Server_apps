@@ -27,14 +27,11 @@ def process_client_message(message):
     }
 
 
-def main():
+def check_cmd_port():
     """
     Загрузка параметров командной строки, если нет параметров, то задаем значения по умолчанию
-    обработка порта
-    server.ru -p 8888 -a 127.0.0.1
-    :return:
+    :return: порт
     """
-
     try:
         if '-p' in sys.argv:
             listen_port = int(sys.argv[sys.argv.index('-p') + 1])
@@ -42,6 +39,7 @@ def main():
             listen_port = DEFAULT_PORT
         if listen_port < 1024 or listen_port > 65535:
             raise ValueError
+        return listen_port
     except IndexError:
         print('После параметра -\'p\' необходимо указывать номер порта')
         sys.exit()
@@ -49,16 +47,35 @@ def main():
         print('Корректный порт в диапазоне 1024-65535')
         sys.exit()
 
-        # Загружаем какой адрес слушать
 
+def check_cmd_addr():
+    """
+    Загрузка параметров командной строки, если нет параметров, то задаем значения по умолчанию
+    :return: адрес
+    """
     try:
         if '-a' in sys.argv:
             listen_addr = sys.argv[sys.argv.index('-a') + 1]
         else:
             listen_addr = ''
+        return listen_addr
     except IndexError:
         print('После параметра -\'a\' необходимо указывать номер адрес, который слушает сервер')
         sys.exit(1)
+
+
+def main():
+    """
+    Загрузка параметров командной строки, если нет параметров, то задаем значения по умолчанию
+    обработка порта
+    server.ru -p 8888 -a 127.0.0.1
+    :return:
+    """
+    # загружаем порт
+    listen_port = check_cmd_port()
+
+    # Загружаем какой адрес слушать
+    listen_addr = check_cmd_addr()
 
     # Готовим сокет к передаче
     transport = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

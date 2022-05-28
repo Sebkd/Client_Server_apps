@@ -1,25 +1,24 @@
 """unit-test client"""
 import os
 import sys
-import json
-import socket
-import time
 import unittest
 
 sys.path.insert(0, os.path.join(os.getcwd(), '..'))
-from common.utils import get_message, send_message
 from common.variables import ACTION, PRESENCE, TIME, USER, ACCOUNT_NAME, RESPONSE, ERROR, DEFAULT_IP_ADDR, \
     DEFAULT_PORT
 from client import create_presense, process_ans, check_cmd
 
 
-class TestClass(unittest.TestCase):
+class TestClassClient(unittest.TestCase):
     """
     Класс с тестами для client
     """
 
     def setUp(self) -> None:
         sys.argv = ['127.0.0.1', DEFAULT_IP_ADDR, DEFAULT_PORT]
+
+    def tearDown(self) -> None:
+        pass
 
     def test_def_create_presense(self):
         """
