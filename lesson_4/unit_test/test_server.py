@@ -11,7 +11,7 @@ from server import check_cmd_port, check_cmd_addr, process_client_message
 
 class TestClassServer(unittest.TestCase):
     """
-    Класс с тестами для client
+    Класс с тестами для server
     """
 
     def setUp(self) -> None:
@@ -157,7 +157,6 @@ class TestClassServer(unittest.TestCase):
             }
         }
         self.assertEqual(process_client_message(test_msg), self.err_dict)
-
 
     def test_process_client_message_no_user(self):
         """

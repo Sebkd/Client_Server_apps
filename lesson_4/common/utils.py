@@ -11,7 +11,9 @@ def get_message(client):
     принимает байты, возвращает словарь.
     если принято, что то другое возвращает ValueError"""
 
-    encoded_response = client.recv(MAX_PACKAGE_LENGTH)
+    print()
+    # encoded_response = client.recv(MAX_PACKAGE_LENGTH)
+    encoded_response = client.recv()
     if isinstance(encoded_response, bytes):
         json_response = encoded_response.decode(ENCODING)
         if isinstance(json_response, str):
