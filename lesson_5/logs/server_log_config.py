@@ -4,7 +4,7 @@
 
 import logging
 import os
-import sys
+
 from logging.handlers import TimedRotatingFileHandler
 
 # Создаём объект-логгер с именем server
@@ -14,7 +14,9 @@ LOG = logging.getLogger('server.api')
 FORMATTER = logging.Formatter("%(asctime)s %(levelname)s %(module)s %(message)s ")
 
 # Создаём файловый обработчик логгирования (можно задать кодировку):
-FILE_HANDLER = logging.handlers.TimedRotatingFileHandler("server.api.log", encoding='utf-8')
+PATH = os.path.dirname(os.path.abspath(__file__))
+PATH = os.path.join(PATH, 'server.api.log')
+FILE_HANDLER = logging.handlers.TimedRotatingFileHandler(PATH, encoding='utf-8')
 FILE_HANDLER.setLevel(logging.DEBUG)
 
 FILE_HANDLER.setFormatter(FORMATTER)

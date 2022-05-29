@@ -5,13 +5,17 @@
 import logging
 
 # Создаём объект-логгер с именем server
+import os
+
 LOG = logging.getLogger('client.api')
 
 # Создаём объект форматирования:
 FORMATTER = logging.Formatter("%(asctime)s %(levelname)s %(module)s %(message)s ")
 
 # Создаём файловый обработчик логгирования (можно задать кодировку):
-FILE_HANDLER = logging.FileHandler("client.api.log", encoding='utf-8')
+PATH = os.path.dirname(os.path.abspath(__file__))
+PATH = os.path.join(PATH, 'client.api.log')
+FILE_HANDLER = logging.FileHandler(PATH, encoding='utf-8')
 FILE_HANDLER.setLevel(logging.DEBUG)
 
 FILE_HANDLER.setFormatter(FORMATTER)
