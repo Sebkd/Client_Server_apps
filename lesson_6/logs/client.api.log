@@ -1,0 +1,140 @@
+2022-05-29 18:38:15,181 DEBUG client Start 
+2022-05-29 18:38:15,181 INFO client Получен адрес 127.0.0.1 : 7777 
+2022-05-29 18:38:15,181 INFO client Ответ {RESPONSE: 200} 
+2022-05-29 18:38:15,181 INFO client Принят ответ от сервера 200 : OK 
+2022-05-29 18:38:21,964 DEBUG client Start 
+2022-05-29 18:38:21,964 INFO client Получен адрес 127.0.0.1 : 7777 
+2022-05-29 18:38:21,965 INFO client Ответ {RESPONSE: 200} 
+2022-05-29 18:38:21,965 INFO client Принят ответ от сервера 200 : OK 
+2022-05-29 18:38:24,364 DEBUG client Start 
+2022-05-29 18:38:24,364 INFO client Получен адрес 127.0.0.1 : 7777 
+2022-05-29 18:38:24,364 INFO client Ответ {RESPONSE: 200} 
+2022-05-29 18:38:24,364 INFO client Принят ответ от сервера 200 : OK 
+2022-05-29 18:41:57,826 DEBUG client Start 
+2022-05-29 18:41:57,826 INFO client Получен адрес 127.0.0.1 : 7777 
+2022-05-29 18:41:57,826 INFO client Ответ {RESPONSE: 200} 
+2022-05-29 18:41:57,826 INFO client Принят ответ от сервера 200 : OK 
+2022-05-29 18:42:19,164 DEBUG client Start 
+2022-05-29 18:43:17,317 DEBUG client Start 
+2022-05-29 18:43:18,632 DEBUG client Start 
+2022-05-29 18:43:36,078 DEBUG client Start 
+2022-05-29 18:44:19,980 DEBUG client Start 
+2022-05-29 18:47:17,939 DEBUG client Start 
+2022-05-29 18:49:21,746 DEBUG client Start 
+2022-05-29 18:49:21,746 ERROR client некорректный порт 
+2022-05-29 18:49:29,483 DEBUG client Start 
+2022-05-29 18:49:29,483 ERROR client некорректный порт 
+2022-05-29 18:50:10,729 DEBUG client Start 
+2022-05-29 18:50:10,730 CRITICAL client Корректный порт в диапазоне 1024-65535, здесь порт 1000 
+2022-05-29 18:50:10,730 ERROR client некорректный порт 
+2022-05-29 18:50:22,192 DEBUG client Start 
+2022-05-29 18:50:22,192 CRITICAL client Корректный порт в диапазоне 1024-65535, здесь порт 1000 
+2022-05-29 18:50:22,192 ERROR client некорректный порт 
+2022-05-29 18:52:45,028 DEBUG client Start 
+2022-05-29 18:52:45,028 CRITICAL client Корректный порт должен быть в диапазоне 1024-65535, здесь порт 1000 
+2022-05-29 18:52:45,029 ERROR client некорректный порт 
+2022-05-29 18:52:52,445 DEBUG client Start 
+2022-05-29 18:52:52,445 CRITICAL client Корректный порт должен быть в диапазоне 1024-65535, здесь порт 1000 
+2022-05-29 18:52:52,445 ERROR client некорректный порт 
+2022-05-29 18:53:08,995 DEBUG client Start 
+2022-05-29 18:53:08,995 INFO client Получен адрес 127.0.0.1 : 7777 
+2022-05-29 18:53:19,444 DEBUG client Start 
+2022-05-29 18:53:19,444 INFO client Получен адрес 127.0.0.1 : 7777 
+2022-05-29 18:54:51,574 DEBUG client Start 
+2022-05-29 18:54:51,574 INFO client Получен адрес 127.0.0.1 : 7777 
+2022-05-29 18:54:51,574 CRITICAL client Не удалось подключиться по адресу 127.0.0.1 : 7777, запрос на на подключение отвергнут 
+2022-05-29 18:55:01,616 DEBUG client Start 
+2022-05-29 18:55:01,616 INFO client Получен адрес 127.0.0.1 : 7777 
+2022-05-29 18:55:01,616 CRITICAL client Не удалось подключиться по адресу 127.0.0.1 : 7777, запрос на на подключение отвергнут 
+2022-05-29 18:55:31,849 DEBUG client Start 
+2022-05-29 18:55:31,850 INFO client Получен адрес 127.0.0.1 : 8888 
+2022-05-29 18:55:31,850 CRITICAL client Не удалось подключиться по адресу 127.0.0.1 : 8888, запрос на на подключение отвергнут 
+2022-05-29 18:55:51,445 DEBUG client Start 
+2022-05-29 18:55:51,445 INFO client Получен адрес 127.0.0.1 : 8888 
+2022-05-29 18:55:51,445 CRITICAL client Не удалось подключиться по адресу 127.0.0.1 : 8888, запрос на на подключение отвергнут 
+2022-05-29 18:56:22,050 DEBUG client Start 
+2022-05-29 18:56:22,050 INFO client Получен адрес 127.0.0.1 : 7777 
+2022-05-29 18:56:22,050 INFO client Ответ {RESPONSE: 200} 
+2022-05-29 18:56:22,050 INFO client Принят ответ от сервера 200 : OK 
+2022-05-29 18:58:20,907 DEBUG client Start 
+2022-05-29 18:58:20,907 INFO client Получен адрес 127.0.0.1 : 7777 
+2022-05-29 18:58:20,908 INFO client Ответ {RESPONSE: 200} 
+2022-05-29 18:58:20,908 INFO client Принят ответ 127.0.0.1 : 7777 от сервера 200 : OK 
+2022-05-29 18:58:45,114 DEBUG client Start 
+2022-05-29 18:58:45,114 INFO client Получен адрес 127.0.0.1 : 7777 
+2022-05-29 18:58:45,114 INFO client Ответ {RESPONSE: 200} 
+2022-05-29 18:58:45,114 INFO client Принят ответ 127.0.0.1 : 7777 от сервера "200 : OK" 
+2022-06-06 22:19:52,512 DEBUG client Start 
+2022-06-06 22:19:52,513 INFO client Получен адрес 127.0.0.1 : 7777 
+2022-06-06 22:19:52,516 INFO client Ответ {RESPONSE: 200} 
+2022-06-06 22:19:52,516 INFO client Принят ответ 127.0.0.1 : 7777 от сервера "200 : OK" 
+2022-06-06 22:20:20,229 DEBUG client Start 
+2022-06-06 22:20:20,229 INFO client Получен адрес 127.0.0.1 : 7777 
+2022-06-06 22:20:20,232 INFO client Ответ {RESPONSE: 200} 
+2022-06-06 22:20:20,232 INFO client Принят ответ 127.0.0.1 : 7777 от сервера "200 : OK" 
+2022-06-06 22:22:32,283 DEBUG client Start 
+2022-06-06 22:22:32,283 INFO client Получен адрес 127.0.0.1 : 7777 
+2022-06-06 22:22:32,286 DEBUG decos Была вызвана функция send_message c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 44236), raddr=('127.0.0.1', 7777)>, {'action': 'presense', 'time': 1654543352.2838063, 'user': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.Вызов из функции main().Вызов из функции main@@@Вызов из функции main@@@вызов из модуля client.py 
+2022-06-06 22:22:32,287 DEBUG decos Была вызвана функция get_message c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 44236), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.Вызов из функции main().Вызов из функции main@@@Вызов из функции main@@@вызов из модуля client.py 
+2022-06-06 22:22:32,287 INFO client Ответ {RESPONSE: 200} 
+2022-06-06 22:22:32,287 INFO client Принят ответ 127.0.0.1 : 7777 от сервера "200 : OK" 
+2022-06-06 23:00:52,753 DEBUG client Start 
+2022-06-06 23:00:52,754 INFO client Получен адрес 127.0.0.1 : 7777 
+2022-06-06 23:00:52,756 DEBUG decos Была вызвана функция send_message c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41360), raddr=('127.0.0.1', 7777)>, {'action': 'presense', 'time': 1654545652.754334, 'user': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.Вызов из функции main().Вызов из функции main@@@Вызов из функции main@@@вызов из модуля client.py 
+2022-06-06 23:00:52,757 DEBUG decos Была вызвана функция get_message c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41360), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.Вызов из функции main().Вызов из функции main@@@Вызов из функции main@@@вызов из модуля client.py 
+2022-06-06 23:00:52,757 INFO client Ответ {RESPONSE: 200} 
+2022-06-06 23:00:52,757 INFO client Принят ответ 127.0.0.1 : 7777 от сервера "200 : OK" 
+2022-06-06 23:03:24,761 DEBUG client Start 
+2022-06-06 23:03:35,304 DEBUG client Start 
+2022-06-06 23:03:35,304 INFO client Получен адрес 127.0.0.1 : 7777 
+2022-06-06 23:06:05,634 DEBUG decos Была вызвана функция send_message c параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41362), raddr=('127.0.0.1', 7777)>, {'action': 'presense', 'time': 1654545815.3050652, 'user': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.Вызов из функции main().Вызов из функции main@@@Вызов из функции main@@@вызов из модуля client.py 
+2022-06-06 23:22:48,504 DEBUG client Start 
+2022-06-06 23:22:48,504 INFO client Получен адрес 127.0.0.1 : 7777 
+2022-06-06 23:22:50,920 DEBUG client Start 
+2022-06-06 23:22:50,920 INFO client Получен адрес 127.0.0.1 : 7777 
+2022-06-06 23:22:50,920 DEBUG decos Была вызвана функция send_message c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41366), raddr=('127.0.0.1', 7777)>, {'action': 'presense', 'time': 1654546970.9206717, 'user': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.Вызов из функции main(). 
+2022-06-06 23:22:50,921 DEBUG decos Была вызвана функция get_message c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41366), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.Вызов из функции main(). 
+2022-06-06 23:22:50,921 INFO client Ответ {RESPONSE: 200} 
+2022-06-06 23:22:50,921 INFO client Принят ответ 127.0.0.1 : 7777 от сервера "200 : OK" 
+2022-06-06 23:24:00,011 DEBUG client Start 
+2022-06-06 23:24:00,011 INFO client Получен адрес 127.0.0.1 : 7777 
+2022-06-06 23:24:00,012 DEBUG decos Была вызвана функция send_message c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41368), raddr=('127.0.0.1', 7777)>, {'action': 'presense', 'time': 1654547040.0118797, 'user': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.Вызов из функции main().@@@вызов из модуля client.py 
+2022-06-06 23:24:00,012 DEBUG decos Была вызвана функция get_message c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41368), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.Вызов из функции main().@@@вызов из модуля client.py 
+2022-06-06 23:24:00,012 INFO client Ответ {RESPONSE: 200} 
+2022-06-06 23:24:00,012 INFO client Принят ответ 127.0.0.1 : 7777 от сервера "200 : OK" 
+2022-06-06 23:25:57,335 DEBUG client Start 
+2022-06-06 23:25:57,335 INFO client Получен адрес 127.0.0.1 : 7777 
+2022-06-06 23:25:57,336 DEBUG decos Была вызвана функция send_message c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41374), raddr=('127.0.0.1', 7777)>, {'action': 'presense', 'time': 1654547157.3360665, 'user': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.Вызов из функции main().@@@вызов из модуля client.py 
+2022-06-06 23:25:57,336 DEBUG decos Была вызвана функция get_message c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41374), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.Вызов из функции main().@@@вызов из модуля client.py 
+2022-06-06 23:25:57,336 INFO client Ответ {RESPONSE: 200} 
+2022-06-06 23:25:57,336 INFO client Принят ответ 127.0.0.1 : 7777 от сервера "200 : OK" 
+2022-06-06 23:28:05,016 DEBUG client Start 
+2022-06-06 23:28:05,016 INFO client Получен адрес 127.0.0.1 : 7777 
+2022-06-06 23:28:05,017 DEBUG decos Была вызвана функция send_message c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41376), raddr=('127.0.0.1', 7777)>, {'action': 'presense', 'time': 1654547285.0170028, 'user': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.Вызов из функции main().@@@вызов из модуля client.py 
+2022-06-06 23:28:05,017 DEBUG decos Была вызвана функция get_message c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41376), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.Вызов из функции main().@@@вызов из модуля client.py 
+2022-06-06 23:28:05,017 INFO client Ответ {RESPONSE: 200} 
+2022-06-06 23:28:05,017 INFO client Принят ответ 127.0.0.1 : 7777 от сервера "200 : OK" 
+2022-06-06 23:28:05,988 DEBUG client Start 
+2022-06-06 23:28:05,988 INFO client Получен адрес 127.0.0.1 : 7777 
+2022-06-06 23:28:05,988 DEBUG decos Была вызвана функция send_message c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41378), raddr=('127.0.0.1', 7777)>, {'action': 'presense', 'time': 1654547285.9882405, 'user': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.Вызов из функции main().@@@вызов из модуля client.py 
+2022-06-06 23:28:05,988 DEBUG decos Была вызвана функция get_message c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41378), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.Вызов из функции main().@@@вызов из модуля client.py 
+2022-06-06 23:28:05,988 INFO client Ответ {RESPONSE: 200} 
+2022-06-06 23:28:05,988 INFO client Принят ответ 127.0.0.1 : 7777 от сервера "200 : OK" 
+2022-06-06 23:28:37,657 DEBUG client Start 
+2022-06-06 23:28:37,657 INFO client Получен адрес 127.0.0.1 : 7777 
+2022-06-06 23:28:37,658 DEBUG decos Была вызвана функция send_message c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41380), raddr=('127.0.0.1', 7777)>, {'action': 'presense', 'time': 1654547317.6579528, 'user': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.Вызов из функции main().@@@вызов из модуля client.py 
+2022-06-06 23:28:37,658 DEBUG decos Была вызвана функция get_message c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41380), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.Вызов из функции main().@@@вызов из модуля client.py 
+2022-06-06 23:28:37,658 INFO client Ответ {RESPONSE: 200} 
+2022-06-06 23:28:37,658 INFO client Принят ответ 127.0.0.1 : 7777 от сервера "200 : OK" 
+2022-06-06 23:28:46,814 DEBUG client Start 
+2022-06-06 23:28:46,814 INFO client Получен адрес 127.0.0.1 : 7777 
+2022-06-06 23:28:46,814 DEBUG decos Была вызвана функция send_message c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41382), raddr=('127.0.0.1', 7777)>, {'action': 'presense', 'time': 1654547326.8146176, 'user': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.Вызов из функции main().@@@вызов из модуля client.py 
+2022-06-06 23:28:46,815 DEBUG decos Была вызвана функция get_message c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41382), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.Вызов из функции main().@@@вызов из модуля client.py 
+2022-06-06 23:28:46,815 INFO client Ответ {RESPONSE: 200} 
+2022-06-06 23:28:46,815 INFO client Принят ответ 127.0.0.1 : 7777 от сервера "200 : OK" 
+2022-06-06 23:29:01,140 DEBUG client Start 
+2022-06-06 23:29:01,140 INFO client Получен адрес 127.0.0.1 : 7777 
+2022-06-06 23:29:01,140 DEBUG decos Была вызвана функция send_message c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41384), raddr=('127.0.0.1', 7777)>, {'action': 'presense', 'time': 1654547341.140448, 'user': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.Вызов из функции main().@@@вызов из модуля client.py 
+2022-06-06 23:29:01,141 DEBUG decos Была вызвана функция get_message c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41384), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.Вызов из функции main().@@@вызов из модуля client.py 
+2022-06-06 23:29:01,141 INFO client Ответ {RESPONSE: 200} 
+2022-06-06 23:29:01,141 INFO client Принят ответ 127.0.0.1 : 7777 от сервера "200 : OK" 
