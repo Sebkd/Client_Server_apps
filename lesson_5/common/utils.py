@@ -4,14 +4,15 @@ import sys
 
 sys.path.insert(0, os.path.join(os.getcwd(), 'lesson_3'))
 from common.variables import MAX_PACKAGE_LENGTH, ENCODING
+from decos import log
 
 
+@log
 def get_message(client):
     """прием и декодирование сообщения
     принимает байты, возвращает словарь.
     если принято, что то другое возвращает ValueError"""
 
-    print()
     encoded_response = client.recv(MAX_PACKAGE_LENGTH)
     # encoded_response = client.recv()
     if isinstance(encoded_response, bytes):
@@ -25,6 +26,7 @@ def get_message(client):
     raise ValueError
 
 
+@log
 def send_message(sock, message):
     """кодирование и отправка сообщения
     принимает словарь, делает словарь, кодирует в байты

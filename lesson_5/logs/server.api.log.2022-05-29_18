@@ -1,0 +1,26 @@
+2022-05-29 18:37:49,763 DEBUG server Start 
+2022-05-29 18:37:49,763 DEBUG server получен порт 7777 
+2022-05-29 18:37:49,763 DEBUG server получен адрес 127.0.0.1 
+2022-05-29 18:37:49,763 DEBUG server слушаем адрес 127.0.0.1:7777 
+2022-05-29 18:38:02,139 DEBUG server Start 
+2022-05-29 18:38:02,139 DEBUG server получен порт 7777 
+2022-05-29 18:38:02,139 DEBUG server получен адрес 127.0.0.1 
+2022-05-29 18:38:02,139 DEBUG server слушаем адрес 127.0.0.1:7777 
+2022-05-29 18:38:15,181 DEBUG server получено сообщение {'action': 'presense', 'time': 1653838695.1813319, 'user': {'account_name': 'Guest'}} 
+2022-05-29 18:38:15,181 INFO server Ответ {RESPONSE: 200} 
+2022-05-29 18:38:21,964 DEBUG server получено сообщение {'action': 'presense', 'time': 1653838701.9647217, 'user': {'account_name': 'Guest'}} 
+2022-05-29 18:38:21,964 INFO server Ответ {RESPONSE: 200} 
+2022-05-29 18:38:24,364 DEBUG server получено сообщение {'action': 'presense', 'time': 1653838704.3642468, 'user': {'account_name': 'Guest'}} 
+2022-05-29 18:38:24,364 INFO server Ответ {RESPONSE: 200} 
+2022-05-29 18:41:57,826 DEBUG server получено сообщение {'action': 'presense', 'time': 1653838917.8262033, 'user': {'account_name': 'Guest'}} 
+2022-05-29 18:41:57,826 INFO server Ответ {RESPONSE: 200} 
+2022-05-29 18:55:21,872 DEBUG server Start 
+2022-05-29 18:55:21,872 DEBUG server получен порт 7777 
+2022-05-29 18:55:21,872 DEBUG server получен адрес 127.0.0.1 
+2022-05-29 18:55:21,872 DEBUG server слушаем адрес 127.0.0.1:7777 
+2022-05-29 18:56:22,050 DEBUG server получено сообщение {'action': 'presense', 'time': 1653839782.0506225, 'user': {'account_name': 'Guest'}} 
+2022-05-29 18:56:22,050 INFO server Ответ {RESPONSE: 200} 
+2022-05-29 18:58:20,907 DEBUG server получено сообщение {'action': 'presense', 'time': 1653839900.907723, 'user': {'account_name': 'Guest'}} 
+2022-05-29 18:58:20,907 INFO server Ответ {RESPONSE: 200} 
+2022-05-29 18:58:45,114 DEBUG server получено сообщение {'action': 'presense', 'time': 1653839925.1146078, 'user': {'account_name': 'Guest'}} 
+2022-05-29 18:58:45,114 INFO server Ответ {RESPONSE: 200} 
