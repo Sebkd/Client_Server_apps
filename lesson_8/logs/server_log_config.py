@@ -4,6 +4,7 @@
 
 import logging
 import os
+import sys
 
 from logging.handlers import TimedRotatingFileHandler
 
@@ -16,13 +17,19 @@ FORMATTER = logging.Formatter("%(asctime)s %(levelname)s %(module)s %(message)s 
 # Создаём файловый обработчик логгирования (можно задать кодировку):
 PATH = os.path.dirname(os.path.abspath(__file__))
 PATH = os.path.join(PATH, 'server.api.log')
-FILE_HANDLER = logging.handlers.TimedRotatingFileHandler(PATH, encoding='utf-8')
+
+# Создаем потоки вывода логов
+FILE_HANDLER = logging.handlers.TimedRotatingFileHandler(PATH, encoding='utf-8', interval=1, when='D')
+FILE_HANDLER.setFormatter(FORMATTER)
 FILE_HANDLER.setLevel(logging.DEBUG)
 
-FILE_HANDLER.setFormatter(FORMATTER)
+STREAM_HANDLER = logging.StreamHandler(sys.stderr)
+STREAM_HANDLER.setFormatter(FORMATTER)
+STREAM_HANDLER.setLevel(logging.ERROR)
 
 # Добавляем в логгер новый обработчик событий и устанавливаем уровень логгирования
 LOG.addHandler(FILE_HANDLER)
+LOG.addHandler(STREAM_HANDLER)
 LOG.setLevel(logging.DEBUG)
 
 if __name__ == '__main__':
